@@ -1,0 +1,30 @@
+git config --global user.name "abhijitboral"
+git config --global user.name "abhijit.boral@coudeclouds.in"
+git config --list
+git clone <git url>
+git status
+
+git remote add origin git@github.com:abhijitboral/test_repo.git
+git remote set-url origin git@github.com:abhijitboral/test_repo.git
+
+git init: Initialize a new Git repository in the current directory.
+git add .  Add a file to the staging area for the next commit.
+git commit -m "message"
+git push origin main
+
+
+git pull: Fetch changes from a remote repository and merge them into the current branch.
+git branch: List all branches in the repository.
+git branch <branch_name>: Create a new branch with the specified name.
+git checkout <branch_name>: Switch to the specified branch.
+git checkout -b <branch_name> : Creates a new branch and switches to it in one step.
+git merge <branch_name>: Merge changes from the specified branch into the current branch.
+git log: Show a history of commits in the repository.
+git diff: Show the differences between the working directory and the staging area.
+git remote: Manage remote repositories.
+git fetch: Download objects and refs from another repository.
+git reset: Reset the current HEAD to the specified state.
+git revert: Revert commits by applying an inverse commit.
+git tag: Create, list, delete or verify a tag object signed with GPG.
+git stash: Stash changes in a dirty working directory away.
+git config: Get and set repository or global options.
